@@ -11,6 +11,9 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+.load-more {
+  display: none;
+}
 
 .search-form {
   position: fixed;
@@ -45,6 +48,7 @@ body {
 .button:hover {
   background-color: lightcoral;
 } */
+
 .load-more {
   display: none;
   margin: 0 auto;

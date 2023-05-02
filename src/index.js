@@ -64,7 +64,7 @@ const handleSubmit = async e => {
       'Sorry, there are no images matching your search query. Please try again.'
     );
 
-    // return false;
+    return false;
   }
 
   renderGallery(images.hits);
