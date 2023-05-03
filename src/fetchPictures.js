@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// export async function fetchPhoto(inputValue, page) {
+// export async function fetchPictures(query, page, per_page) {
 //   const queryParams = {
 //     key: '35912782-f9206aec1cfed4286d9fa7302',
 //     q: inputValue,

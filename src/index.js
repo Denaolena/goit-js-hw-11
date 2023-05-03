@@ -76,7 +76,7 @@ form.addEventListener('submit', e => handleSubmit(e));
 const handleClick = async e => {
   button.style.display = 'none';
   const images = await fetchPictures(query, page, per_page);
-  renderImages(images.hits);
+  renderGallery(images.hits);
   button.style.display = 'block';
 
   page = page + 1;
